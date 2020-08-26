@@ -1517,6 +1517,21 @@
     "@webassemblyjs/wast-parser" "1.9.0"
     "@xtuc/long" "4.2.2"
 
+"@wojtekmaj/enzyme-adapter-react-17@^0.1.1":
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/@wojtekmaj/enzyme-adapter-react-17/-/enzyme-adapter-react-17-0.1.1.tgz#f682bb4ead004cd28660b243779c8ede6a053a49"
+  integrity sha512-LFQXbtz2SeiSc+TGv5F59WVSONiBI3U8y+xw49rbJJV08GndsWJ3BKjOooYy52z5Z93L33pPgmAOuijVl2wuLQ==
+  dependencies:
+    enzyme-adapter-utils "^1.13.1"
+    enzyme-shallow-equal "^1.0.4"
+    has "^1.0.3"
+    object.assign "^4.1.0"
+    object.values "^1.1.1"
+    prop-types "^15.7.2"
+    react-is "^16.13.1"
+    react-test-renderer "^17.0.0-0"
+    semver "^5.7.0"
+
 "@xtuc/ieee754@^1.2.0":
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/@xtuc/ieee754/-/ieee754-1.2.0.tgz#eef014a3145ae477a1cbc00cd1e552336dceb790"
@@ -5226,21 +5241,6 @@ ent@~2.2.0:
 entities@^1.1.1, entities@~1.1.1:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/entities/-/entities-1.1.1.tgz#6e5c2d0a5621b5dadaecef80b90edfb5cd7772f0"
-
-enzyme-adapter-react-16@^1.15.3:
-  version "1.15.3"
-  resolved "https://registry.yarnpkg.com/enzyme-adapter-react-16/-/enzyme-adapter-react-16-1.15.3.tgz#90154055be3318d70a51df61ac89cfa22e3d5f60"
-  integrity sha512-98rqNI4n9HZslWIPuuwy4hK1bxRuMy+XX0CU1dS8iUqcgisTxeBaap6oPp2r4MWC8OphCbbqAT8EU/xHz3zIaQ==
-  dependencies:
-    enzyme-adapter-utils "^1.13.1"
-    enzyme-shallow-equal "^1.0.4"
-    has "^1.0.3"
-    object.assign "^4.1.0"
-    object.values "^1.1.1"
-    prop-types "^15.7.2"
-    react-is "^16.13.1"
-    react-test-renderer "^16.0.0-0"
-    semver "^5.7.0"
 
 enzyme-adapter-utils@^1.13.1:
   version "1.13.1"
@@ -11195,7 +11195,7 @@ react-static@^5.9.7:
     webpack-flush-chunks "^1.2.3"
     webpack-node-externals "^1.6.0"
 
-react-test-renderer@^16.0.0-0, react-test-renderer@^17.0.0-rc.0:
+react-test-renderer@^17.0.0-0, react-test-renderer@^17.0.0-rc.0:
   version "17.0.0-rc.0"
   resolved "https://registry.yarnpkg.com/react-test-renderer/-/react-test-renderer-17.0.0-rc.0.tgz#069dc34427ffae2924aacfa09ca581b990c9ddd1"
   integrity sha512-G0G/QWk0KWRQ77oCJXuwtLKyO6KrVq5NJVGRU5ulE6UNYfeld5N6gwpASekZI3At711lxMGXcxDzHESZU/cxNQ==
